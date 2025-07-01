@@ -20,63 +20,23 @@
 @prefix ti: <https://w3id.org/italia/onto/TI/> . 
 @prefix owl: <http://www.w3.org/2002/07/owl#>
 
-a-dd:AffixedElementShape
+a-dd:ConservationStatusShape
     a sh:NodeShape ;
-	# sh:node l0:ObjectShape ;
-    sh:targetClass a-dd:AffixedElement ;
+    # sh:node core:EventOrSituationInTimeShape ;
+    sh:targetClass a-dd:ConservationStatus ;
 sh:property [              
-	sh:path a-cd:hasFunctionalPurpose ;     
-	sh:class a-cd:UseFunction ;
+	sh:path a-dd:hasConservationMethod ;     
+	sh:class a-dd:ConservationMethod ;
 	] ;
 sh:property [              
-	sh:path a-dd:hasFontStyle ;     
-	sh:class a-dd:FontStyle ;
+	sh:path a-dd:hasLegibility ;     
+	sh:class a-dd:Legibility ;
 	] ;
 sh:property [              
-	sh:path a-dd:hasMeasurementCollection ;     
-	sh:class a-dd:MeasurementCollection ;
-    sh:minCount 1 ;
-	] ;
-sh:property [              
-	sh:path a-dd:hasSupport ;     
-	sh:class a-dd:Support ;
-	];
-sh:property [              
-	sh:path a-dd:hasTechnicalStatus ;     
-	sh:class a-dd:TechnicalStatus ;
-	] ;
-sh:property [              
-	sh:path a-dd:hasWritingSystem ;     
-	sh:class a-dd:WritingSystem ;
-	] ;
-sh:property [              
-	sh:path a-dd:isElementAffixedOn ;     
-	sh:class cis:CulturalEntity ;
+	sh:path core:hasType ;     
+	sh:class a-dd:ConservationStatusType ;
 	sh:minCount 1 ;
-	] ;
-sh:property [              
-	sh:path a-dd:italianTranslation ;     
-	sh:datatype xsd:string ;
-	] ;
-sh:property [              
-	sh:path a-dd:refersToAgent ;     
-	sh:class l0:Agent ;
-	] ;
-sh:property [              
-	sh:path a-dd:transcript ;     
-	sh:datatype xsd:string ;
-	] ;
-sh:property [              
-	sh:path core:hasAgentRole ;     
-	sh:class core:AgentRole ;
-	] ;
-sh:property [              
-	sh:path a-dd:hasType ;     
-	sh:class a-dd:AffixedElementType ;
-	] ;
-sh:property [              
-	sh:path tiapit:hasTemporalEntity ;     
-	sh:class tiapit:TemporalEntity ;
+	sh:maxCount 1 ;
 	] ;
     sh:closed true ;
     .
