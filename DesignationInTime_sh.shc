@@ -39,9 +39,9 @@ sh:property [
 	sh:class a-cd:DesignationType ;
 	] ;
 sh:property [
-    	sh:path l0:name ;
-    	sh:minCount 1 ;
-    	sh:datatype rdfs:Literal ;
+    sh:path l0:name ;
+   	sh:datatype rdfs:Literal ;
+	sh:minCount 1 ;
 	] ;
     sh:closed true ;
     .
