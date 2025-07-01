@@ -20,13 +20,39 @@
 @prefix ti: <https://w3id.org/italia/onto/TI/> . 
 @prefix owl: <http://www.w3.org/2002/07/owl#>
 
-a-cd:ResearchShape   
+a-cd:SurveyShape
     a sh:NodeShape ;
 	# sh:node l0:ActivityShape ;
-    sh:targetClass a-cd:Research ;
+    sh:targetClass a-cd:Survey ;
 sh:property [              
-	sh:path l0:name ;     
+	sh:path a-cd:hasSurveyMethod ;     
+	sh:class a-cd:SurveyMethod ;
+	] ;
+sh:property [              
+	sh:path a-cd:hasSurveyMotivation ;     
+	sh:class a-cd:SurveyMotivation ;
+	] ;
+sh:property [              
+	sh:path a-cd:report ;     
 	sh:datatype xsd:string ;
+	sh:minCount 1 ;
+	] ;
+sh:property [              
+	sh:path core:hasAgentRole ;     
+	sh:class core:AgentRole ;
+	] ;
+sh:property [              
+	sh:path core:hasType ;     
+	sh:class a-cd:SurveyType ;
+	] ;
+sh:property [              
+	sh:path core:informationSource ;     
+	sh:datatype xsd:string ;
+	sh:minCount 1 ;
+	] ;
+sh:property [              
+	sh:path tiapit:atTime ;     
+	sh:class tiapit:TimeInterval ;
 	sh:minCount 1 ;
 	] ;
     sh:closed true ;

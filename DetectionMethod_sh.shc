@@ -28,7 +28,7 @@ a-cd:DetectionMethodShape
 sh:property [              
 	sh:path a-cd:isDetectionMethodOf ;     
 	sh:class cis:CulturalEntity ;
-	minCount 1 ;
+	sh:minCount 1 ;
 	] ;
     sh:closed true ;
     .

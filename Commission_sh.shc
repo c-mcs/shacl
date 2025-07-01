@@ -31,8 +31,8 @@ sh:property [
 sh:property [              
 	sh:path a-cd:isCommissionOf ;     
 	sh:class owl:Thing ;
-    minCount 1 ;
-    maxCount 1 ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
 	] ;
 sh:property [              
 	sh:path core:hasAgentRole ;     

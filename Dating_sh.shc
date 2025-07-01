@@ -31,7 +31,7 @@ sh:property [
 sh:property [              
 	sh:path a-cd:hasTimeInterval ;     
 	sh:class a-cd:TimeInterval ;
-	minCount 1 ;
+	sh:minCount 1 ;
 	] ;
     sh:closed true ;
     .
