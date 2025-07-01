@@ -22,7 +22,7 @@
 
 a-cd:DesignationInTimeShape
     a sh:NodeShape ;
-    sh:node core:EventOrSituationInTime ;
+    # sh:node core:EventOrSituationInTimeShape ;
     sh:targetClass a-cd:DesignationInTime ;
 sh:property [              
 	sh:path a-cd:isDesignationInTimeOf ;     
@@ -33,9 +33,6 @@ sh:property [
 sh:property [              
 	sh:path core:current ;     
 	sh:datatype xsd:boolean ;
-	] ;
-sh:property [              
-	sh:path core:EventOrSituationInTime ; 
 	] ;
 sh:property [              
 	sh:path core:hasType ;     

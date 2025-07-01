@@ -20,9 +20,9 @@
 @prefix ti: <https://w3id.org/italia/onto/TI/> . 
 @prefix owl: <http://www.w3.org/2002/07/owl#>
 
-core:Identifier
+core:IdentifierShape
     a sh:NodeShape ;
-    sh:node core:Characteristic ;
+	# sh:node core:Characteristic ;
     sh:targetClass core:Identifier ;
 sh:property [              
 	sh:path core:current ;     

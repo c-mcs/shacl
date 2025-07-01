@@ -26,179 +26,177 @@ arco:CulturalPropertyShape
         sh:path arco:hasCulturalPropertyComponent ;     
         sh:class cis:CulturalEntity ;
     ] ;
- sh:property [              
+    sh:property [              
         sh:path arco:numberOfCompontents ;     
         sh:datatype xsd:string ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path arco:hasCulturalPropertyResidual ;     
         sh:class cis:CulturalEntity ;
     ] ;
-        sh:property [              
+   sh:property [              
         sh:path a-cd:hasAcquisition ;     
         sh:class a-cd:Acquisition ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasBigliographicSource ;     
         sh:class a-cd:Edition ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasChangeOfAvailability ;     
         sh:class a-cd:ChangeOfAvailability ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasAcquisition ;     
         sh:class a-cd:Acquisition ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasCommission ;     
         sh:class a-cd:Commission ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasCopyright ;     
         sh:class a-cd:Copyright ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasDating ;     
         sh:class a-cd:Dating ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasDesignationInTime ;     
         sh:class a-cd:DesignationInTime ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasDetectionMethod ;     
         sh:class a-cd:DetectionMethod ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasDocumentation ;     
         sh:class a-cd:Documentation ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasExportImportCertification ;     
         sh:class a-cd:ExportImportCertification ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasIntervention ;     
         sh:class a-cd:Intervention ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasInventorySituation ;     
         sh:class a-cd:InventorySituation ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasLegalSituation ;     
         sh:class a-cd:InventorySituation ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasProtectiveMeasure ;     
         sh:class a-cd:ProtectiveMeasure ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasRelatedWorkSituation ;     
         sh:class a-cd:RelatedWorkSituation ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasResearch ;     
         sh:class a-cd:Research ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasResponsibility ;     
         sh:class a-cd:Responsibility ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd: ;     
         sh:class a-cd: ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasSubject ;     
         sh:class a-cd:Subject ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasSurvey ;     
         sh:class a-cd:Survey ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasTitle ;     
         sh:class a-cd:Title ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasUrbanPlanningInstrument ;     
         sh:class a-cd:UrbanPlanningInstrument ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:hasUse ;     
         sh:class a-cd:Use ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:historicalInformation ;     
         sh:datatype xsd:string ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-cd:informationGatheredOnSite ;     
         sh:datatype xsd:string ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasAffixedElement ;     
         sh:class a-dd:AffixedElement ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasConservationStatus ;     
         sh:class a-dd:ConservationStatus ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasCulturalPropertyAccessibility ;     
         sh:class a-dd:CulturalPropertyAccessibility ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasCulturalPropertyAvailability ;     
         sh:class a-dd:CulturalPropertyAvailability ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasCulturalPropertyType ;     
         sh:class a-dd:CulturalPropertyType ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasIconographicOrDecorativeApparatus ;     
         sh:class a-dd:IconographicOrDecorativeApparatus ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasLocationSubject ;     
         sh:class a-loc:TimeIndexedTypedLocation ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasOrientation ;     
         sh:class a-dd:Orientation ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:hasTechnicalStatus ;     
         sh:class a-dd:TechnicalStatus ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-dd:StorageConditions ;     
         sh:datatype xsd:string ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-loc:hasCadastralIdentity ;     
         sh:class a-loc:CadastralIdentity ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-loc:hasTimeIndexedTypedLocation ;     
         sh:class a-loc:TimeIndexedTypedLocation ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path a-loc:hasTypeOfContext ;     
         sh:class a-loc:TypeOfContext ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path clv:hasGeometry ;     
         sh:class clv:Geometry ;
     ] ;
-        sh:property [              
+    sh:property [              
         sh:path core:hasCategory ;     
         sh:class arco:CulturalPropertyCategory ;
     ] ;
-
-
     sh:closed true ;
     .
